@@ -1,0 +1,122 @@
+[
+    {
+        "author_no": "1001",
+        "author_name": "Andrew",
+        "university": "Technische Universiteit Delft",
+        "date_of_birth": "1986-05-05",
+        "h_index": "75",
+        "gender": "m"
+    },
+    {
+        "author_no": "1002",
+        "author_name": "Robert",
+        "university": "Washington University",
+        "date_of_birth": "1991-11-01",
+        "h_index": "88",
+        "gender": "m"
+    },
+    {
+        "author_no": "1003",
+        "author_name": "Clement",
+        "university": "Adelphi University",
+        "date_of_birth": "1987-06-06",
+        "h_index": "90",
+        "gender": "m"
+    },
+    {
+        "author_no": "1004",
+        "author_name": "Danielle",
+        "university": "Harvard Medical School",
+        "date_of_birth": "1993-02-01",
+        "h_index": "79",
+        "gender": "f"
+    },
+    {
+        "author_no": "1005",
+        "author_name": "Ernest",
+        "university": "Aix-Marseille Université",
+        "date_of_birth": "1956-12-12",
+        "h_index": "88",
+        "gender": "m"
+    },
+    {
+        "author_no": "1006",
+        "author_name": "Jesse",
+        "university": "Aichi Prefectural University",
+        "date_of_birth": "1977-07-30",
+        "h_index": "75",
+        "gender": "m"
+    },
+    {
+        "author_no": "1007",
+        "author_name": "Marion",
+        "university": "University of Oxford",
+        "date_of_birth": "1988-03-22",
+        "h_index": "77",
+        "gender": "m"
+    },
+    {
+        "author_no": "1008",
+        "author_name": "Shelley",
+        "university": "University College London",
+        "date_of_birth": "1975-12-13",
+        "h_index": "90",
+        "gender": "m"
+    },
+    {
+        "author_no": "1009",
+        "author_name": "Michelle",
+        "university": "Universidad Complutense de Madrid",
+        "date_of_birth": "1995-04-01",
+        "h_index": "91",
+        "gender": "f"
+    },
+    {
+        "author_no": "1010",
+        "author_name": "Lavinia",
+        "university": "Technische Universiteit Delft",
+        "date_of_birth": "1985-06-15",
+        "h_index": "55",
+        "gender": "f"
+    },
+    {
+        "author_no": "1011",
+        "author_name": "Teresa",
+        "university": "California Institute of Technology",
+        "date_of_birth": "1989-11-21",
+        "h_index": "45",
+        "gender": "f"
+    },
+    {
+        "author_no": "1012",
+        "author_name": "Ruby",
+        "university": "Aarhus Universitet",
+        "date_of_birth": "1988-11-10",
+        "h_index": "90",
+        "gender": "f"
+    },
+    {
+        "author_no": "1013",
+        "author_name": "Taylor",
+        "university": "Technische Universiteit Delft",
+        "date_of_birth": "1970-06-20",
+        "h_index": "97",
+        "gender": "m"
+    },
+    {
+        "author_no": "1014",
+        "author_name": "Maxine",
+        "university": "Harvard University",
+        "date_of_birth": "1995-09-18",
+        "h_index": "90",
+        "gender": "f"
+    },
+    {
+        "author_no": "1015",
+        "author_name": "Ernest",
+        "university": "Technische Universiteit Delft",
+        "date_of_birth": "1975-04-02",
+        "h_index": "89",
+        "gender": "m"
+    }
+  ]

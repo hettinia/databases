@@ -1,0 +1,62 @@
+[
+    {
+        "author_no": "1001",
+        "collaborator": "1005"
+    },
+    {
+        "author_no": "1002",
+        "collaborator": "1006"
+    },
+    {
+        "author_no": "1003",
+        "collaborator": "1007"
+    },
+    {
+        "author_no": "1004",
+        "collaborator": "1008"
+    },
+    {
+        "author_no": "1005",
+        "collaborator": "1013"
+    },
+    {
+        "author_no": "1006",
+        "collaborator": "1010"
+    },
+    {
+        "author_no": "1007",
+        "collaborator": "1001"
+    },
+    {
+        "author_no": "1008",
+        "collaborator": "1002"
+    },
+    {
+        "author_no": "1009",
+        "collaborator": "1003"
+    },
+    {
+        "author_no": "1010",
+        "collaborator": "1012"
+    },
+    {
+        "author_no": "1011",
+        "collaborator": "1004"
+    },
+    {
+        "author_no": "1012",
+        "collaborator": "1011"
+    },
+    {
+        "author_no": "1013",
+        "collaborator": "1015"
+    },
+    {
+        "author_no": "1014",
+        "collaborator": "1009"
+    },
+    {
+        "author_no": "1015",
+        "collaborator": "1014"
+    }
+  ]

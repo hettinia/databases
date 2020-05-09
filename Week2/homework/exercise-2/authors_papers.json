@@ -1,0 +1,122 @@
+[
+    {
+        "authorNo": "1001",
+        "paperId": "5001"
+    },
+    {
+        "authorNo": "1003",
+        "paperId": "5001"
+    },
+    {
+        "authorNo": "1002",
+        "paperId": "5002"
+    },
+    {
+        "authorNo": "1004",
+        "paperId": "5002"
+    },
+    {
+        "authorNo": "1005",
+        "paperId": "5002"
+    },
+    {
+        "authorNo": "1001",
+        "paperId": "5003"
+    },
+    {
+        "authorNo": "1002",
+        "paperId": "5004"
+    },
+    {
+        "authorNo": "1003",
+        "paperId": "5004"
+    },
+    {
+        "authorNo": "1004",
+        "paperId": "5005"
+    },
+    {
+        "authorNo": "1005",
+        "paperId": "5005"
+    },
+    {
+        "authorNo": "1006",
+        "paperId": "5005"
+    },
+    {
+        "authorNo": "1007",
+        "paperId": "5006"
+    },
+    {
+        "authorNo": "1008",
+        "paperId": "5006"
+    },
+    {
+        "authorNo": "1009",
+        "paperId": "5007"
+    },
+    {
+        "authorNo": "1010",
+        "paperId": "5007"
+    },
+    {
+        "authorNo": "1006",
+        "paperId": "5007"
+    },
+    {
+        "authorNo": "1008",
+        "paperId": "5007"
+    },
+    {
+        "authorNo": "1009",
+        "paperId": "5010"
+    },
+    {
+        "authorNo": "1010",
+        "paperId": "5010"
+    },
+    {
+        "authorNo": "1011",
+        "paperId": "5010"
+    },
+    {
+        "authorNo": "1012",
+        "paperId": "5008"
+    },
+    {
+        "authorNo": "1013",
+        "paperId": "5008"
+    },
+    {
+        "authorNo": "1014",
+        "paperId": "5008"
+    },
+    {
+        "authorNo": "1011",
+        "paperId": "5009"
+    },
+    {
+        "authorNo": "1013",
+        "paperId": "5009"
+    },
+    {
+        "authorNo": "1015",
+        "paperId": "5009"
+    },
+    {
+        "authorNo": "1014",
+        "paperId": "5009"
+    },
+    {
+        "authorNo": "1001",
+        "paperId": "5011"
+    },
+    {
+        "authorNo": "1005",
+        "paperId": "5011"
+    },
+    {
+        "authorNo": "1009",
+        "paperId": "5012"
+    }
+]
