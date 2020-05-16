@@ -1,0 +1,21 @@
+1-------Start a MongoDB Server on my local machine
+ a-Download the right MongoDB version from MongoDB.org
+ b-Create a database directory (in this case under /data).
+ c-Install and start a mongod process:
+    mongod --dbpath=/data
+
+2------ we will export tables (city, country, countrylanguage) from new_world mysql database
+to csv files using the following queries:
+
+select * into outfile 'city.csv' FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' from city;
+
+select * into outfile 'country.csv' FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' from country;
+
+select * into outfile 'countrylanguage.csv' FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' from countrylanguage;
+
+3------ we will import the csv data into new collections in mongodb
+I used mongoimport command as follow:
+
+mongoimport --db=new_world --collection=city --type=csv --headerline --file=/city.csv
+mongoimport --db=new_world --collection=country --type=csv --headerline --file=/country.csv
+mongoimport --db=new_world --collection=countrylanguage --type=csv --headerline --file=/countrylanguage.csv
