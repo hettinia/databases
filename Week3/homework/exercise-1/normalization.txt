@@ -12,10 +12,14 @@
 |         8 | Hema          | 9 Peter St     | D00001003 | 2020-03-20  | B03        | Goat Farm         | P1, T1, M1| Pie, Tea, Mousse |
 +-----------+---------------+----------------+-----------+-------------+------------+-------------------+-----------+------------------+
 
+
+Q1: How can you convert the table into 1NF ?
 Answer-----1:
+
 upon the 1NF, each column should have atomic value, no multiple values. 
 So we should update "food_code" and "food_description" because it has multiple valuse in each row.
 the result will look like this:
+
 +-----------+---------------+----------------+-----------+-------------+------------+-------------------+-----------+------------------+
 | member_id | member_name   | member_address | dinner_id | dinner_date | venue_code | venue_description | food_code | food_description |
 +-----------+---------------+----------------+-----------+-------------+------------+-------------------+-----------+------------------+
@@ -26,8 +30,14 @@ the result will look like this:
 |         . | .             | .              | .         | .           | .          | .                 | .         | .                |
 |         . | .             | .              | .         | .           | .          | .                 | .         | .                |
 +-----------+---------------+----------------+-----------+-------------+------------+-------------------+-----------+------------------+
+this will creating a lot of duplicated content and we can solve this upon the 2NF as we see in answer3.
 
+
+
+
+Q2: What are the super, candidate, primary keys in the table created in step (1)?
 Answer-----2:
+
 Super-Keys:
     SK1 = {member_id, member_name, food_code, food_description}
     SK2 = {member_id, member_address, food_code, food_description}
@@ -38,18 +48,34 @@ Candidate-Keys:
     CK4 = {member_address, food_description}
 Primary-Key: 
     PK = {member_id, food_code}
+	
+	
+	
 
+Q3: How can you develop the set of 2NF tables? (Think of relationships between different tables).
 Answer------3:
-member table:
-    member_id, member_name, member_address
-dinner table:
-    dinner_id, dinner_date
-food table:
-    food_code, food_description
-venue table:
-    venue_code, venue_description
 
+member table:
+    member_id | member_name | member_address
+	
+dinner table:
+    dinner_id | dinner_date
+	
+food table:
+    food_code | food_description
+	
+venue table:
+    venue_code | venue_description
+	
+Relation Table:
+	member_id | dinner_id | venue_code | food_code 
+
+
+
+
+Q4: How can you develop the set of 3NF tables?
 Answer------4:
+
 dinner_date cann't depend on dinner_id because it's non-key attribute,
 venue_description also cann't depend on venue_code because it's non-key attribute,
 so we should be stored these on another table which wil depend on our primary key {member_id, food_code}
